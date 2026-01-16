@@ -1,0 +1,10 @@
+Comandos utilizados na atividade da Calculadora Linux
+
+1) Alteração de permissões do arquivo para torná-lo executável:
+chmod 544 calculadora.sh
+
+2) Verificação das permissões do arquivo:
+ls -l calculadora.sh
+
+3) Execução do script da calculadora:
+./calculadora.sh
