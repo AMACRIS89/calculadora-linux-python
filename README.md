@@ -1,33 +1,28 @@
-# Projeto Final - Git e GitHub  
-## Calculadora em Shell Script e Python
+# Primeiro Projeto - GitHub (Python + Shell Script)
 
-Este repositório contém um projeto de introdução ao uso do GitHub para hospedagem e documentação de código, utilizando um script em Shell Script (.sh) e um programa em Python (.py).
+Este repositório contém:
+- Um script em Shell (.sh) com uma calculadora no Linux.
+- Um código em Python (.py) com a lógica de calculadora.
 
----
-
-## Estrutura do Repositório
-
-- `calculadora.sh`  
-  Script executável em ambiente Linux que permite ao usuário realizar operações matemáticas básicas via terminal.
-
-- `calculadora.py`  
-  Script em Python que implementa a lógica da calculadora com entrada de dados pelo terminal.
-
-- `README.md`  
-  Documentação do projeto e instruções de uso.
-
-- `comandos.txt`  
-  Arquivo contendo os principais comandos Linux utilizados para permissões e execução do script.
+## Arquivos do projeto
+- calculadora.sh → script em Shell (Linux)
+- calculadora.py → script em Python
+- comandos.txt → comandos Linux utilizados
+- README.md → documentação técnica do projeto
 
 ---
 
-## Como executar o arquivo `.sh` (Linux)
+## Como executar o arquivo .sh (Linux)
 
-1. Abra o terminal na pasta onde está o arquivo `calculadora.sh`.
+1. Abra o terminal na pasta onde está o arquivo calculadora.sh
 
 2. Dê permissão de execução ao arquivo:
-```bash
-chmod +x calculadora.sh
+    chmod +x calculadora.sh
+
+3. Execute o script:
+    ./calculadora.sh
+
+O sistema exibirá um menu solicitando dois números e a operação desejada.
 
 ---
 
@@ -38,5 +33,38 @@ chmod +x calculadora.sh
 
 ### Verificar a versão do Python
 No terminal, execute:
-```bash
-python3 --version
+    python3 --version
+
+### Executar o script
+Acesse a pasta do projeto e rode:
+    python3 calculadora.py
+
+O programa solicitará dois números, exibirá um menu com as opções de operação e mostrará o resultado no terminal.
+
+---
+
+## Lógica do Código em Python (Resumo Técnico)
+
+O script calculadora.py funciona da seguinte forma:
+
+1. Solicita dois valores numéricos do usuário usando input()
+2. Converte os valores para o tipo float, permitindo números decimais
+3. Exibe um menu de operações matemáticas
+4. Usa estruturas condicionais (if, elif e else) para executar a operação escolhida
+5. Valida divisão por zero antes de realizar o cálculo
+6. Exibe o resultado final na tela usando print()
+
+---
+
+## Objetivo do Projeto
+
+Demonstrar:
+- Criação de repositório no GitHub
+- Hospedagem de código-fonte
+- Documentação de execução em Linux e Python
+- Organização de projeto para fins educacionais e portfólio
+
+---
+
+## Autora
+Amanda
