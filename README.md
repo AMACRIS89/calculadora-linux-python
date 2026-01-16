@@ -17,3 +17,15 @@ Este repositório contém:
 2. Dê permissão de execução ao arquivo:
 ```bash
 chmod +x calculadora.sh
+
+---
+
+## Como executar o script Python
+
+### Requisitos
+- Python 3.x instalado no sistema
+
+### Verificar a versão do Python
+No terminal, execute:
+```bash
+python3 --version
