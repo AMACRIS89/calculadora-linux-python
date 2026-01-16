@@ -1,16 +1,27 @@
-# Primeiro Projeto - GitHub (Python + Shell Script)
+# Projeto Final - Git e GitHub  
+## Calculadora em Shell Script e Python
 
-Este repositório contém:
-- Um script em **Shell (.sh)** com uma calculadora no Linux.
-- Um código em **Python (.py)** com a lógica de calculadora (ou funcionalidades do projeto em Python).
-
-## Arquivos do projeto
-- `calculadora.sh` → script em Shell (Linux)
-- `calculadora.py` → script em Python
+Este repositório contém um projeto de introdução ao uso do GitHub para hospedagem e documentação de código, utilizando um script em Shell Script (.sh) e um programa em Python (.py).
 
 ---
 
-## Como executar o arquivo .sh (Linux)
+## Estrutura do Repositório
+
+- `calculadora.sh`  
+  Script executável em ambiente Linux que permite ao usuário realizar operações matemáticas básicas via terminal.
+
+- `calculadora.py`  
+  Script em Python que implementa a lógica da calculadora com entrada de dados pelo terminal.
+
+- `README.md`  
+  Documentação do projeto e instruções de uso.
+
+- `comandos.txt`  
+  Arquivo contendo os principais comandos Linux utilizados para permissões e execução do script.
+
+---
+
+## Como executar o arquivo `.sh` (Linux)
 
 1. Abra o terminal na pasta onde está o arquivo `calculadora.sh`.
 
