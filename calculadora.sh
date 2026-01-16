@@ -1,11 +1,22 @@
+```bash
 #!/bin/bash
 
 clear
 echo "=============================="
-echo "     CALCULADORA LINUX"
+echo "   CALCULADORA LINUX"
 echo "=============================="
 echo
 
+# Verifica se o Python está instalado
+if command -v python3 >/dev/null 2>&1; then
+    echo "Python detectado no sistema."
+else
+    echo "Python não encontrado."
+    echo "Instale o Python 3 para executar o script em Python."
+    exit 1
+fi
+
+echo
 echo "Digite o primeiro número:"
 read num1
 
@@ -18,6 +29,7 @@ echo "1 - Soma"
 echo "2 - Subtração"
 echo "3 - Multiplicação"
 echo "4 - Divisão"
+echo "5 - Executar versão em Python"
 echo
 read operacao
 
@@ -42,6 +54,10 @@ case $operacao in
       resultado=$(echo "scale=2; $num1 / $num2" | bc)
       echo "Resultado da divisão: $resultado"
     fi
+    ;;
+  5)
+    echo "Executando calculadora em Python..."
+    python3 calculadora.py
     ;;
   *)
     echo "Opção inválida. Execute o programa novamente."
